@@ -28,9 +28,9 @@ ALTER TABLE  `musee` ADD UNIQUE (
 `nom`
 );
 
-insert into musee(nom,ville,pays,nbVisiteur) values('Musée du Louvre','Paris','France',8500000);
-insert into musee(nom,ville,pays,nbVisiteur) values('British Museum','Londres','Royaume-Uni',5842138);
-insert into musee(nom,ville,pays,nbVisiteur) values('Metropolitan Museum of Art','New York','États-Unis',5216988);
+insert into musee(nom,ville,pays,nbVisiteur,description) values('Musï¿½e du Louvre','Paris','France',8500000 ,'la description');
+insert into musee(nom,ville,pays,nbVisiteur,description) values('British Museum','Londres','Royaume-Uni',5842138,'la description');
+insert into musee(nom,ville,pays,nbVisiteur,description) values('Metropolitan Museum of Art','New York','ï¿½tats-Unis',5216988 ,'la description');
 
 insert into catalogue(libelle) values('catalogue1');
 insert into catalogue(libelle) values('catalogue2');
